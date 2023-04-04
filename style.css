@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+    font-family: 'Prata', serif;
+}
+
+header {
+    width: 100%;
+    height: 262px;
+    background: black;
+    background-size: 100% 139px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 450px;
+}
+.profile {
+   width: 362px;
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin-top: 130px; */
+    top: 410px;
+    position: relative;
+	
+}
+
+.profile img {
+    display: block;
+    margin: 0 50px;
+    border-radius: 50%;
+    border: 8px solid white;
+	width: 200px;
+	 height: 200px;
+	 object-fit: cover;
+}
+
+.profile h1 {
+margin: 0;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 63px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.profile h2 {
+margin: 0;
+font-weight: 400;
+font-size: 14px;
+line-height: 130%;
+text-transform: lowercase;
+color: #A4A4A4;
+}
+
+.profile p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 148.52%;
+    color: #818181;
+    margin: 8px 0;
+}
+
+.profile a {
+    width: 362px;
+    height: 45px;
+    background: black;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.profile a:hover {
+    background: linear-gradient(0deg, #FF8200 0%, #FFBC39 107.46%);
+}
+
+main {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.ills {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+        margin-bottom: 60px;
+}
+
+.ills img {
+    width: 312px;
+    border-radius: 40px;
+}
+ 
+.portfolio {
+    /* visibility: visible; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        margin-bottom: 60px;
+}
+
+.portfolio article {
+    /* visibility: visible; */
+    width: 804px;
+    display: flex;
+    flex-direction: column;
+    height: 332px;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    background: black;
+    border: 2px solid white;
+    border-radius: 42px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.portfolio article img {
+    width: 390px;
+    display: block;
+    margin-right: 25px;
+	border-radius: 40px;
+}
+
+.portfolio article h3 {
+    width: 342px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.portfolio article p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140.52%;
+    width: 360px;
+    color: white;
+}
+
+.portfolio article a {
+    background: white;
+    border-radius: 7px;
+    display: flex;
+    width: 219px;
+    height: 40px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    font-size: 13px;
+    justify-content: center;
+}
+
+.portfolio article a:hover {
+    background:white;
+}
+
+footer {
+    background: black;
+    width: 100%;
+    height: 78px;
+    padding: 0 5vw;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.contacts a {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 40px;
+}
+
+.contacts a:hover {
+    color: #000000;
+}
+
+.copyright {
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+/* ВНУТРЕННЯЯ СТРАНИЦА */
+
+.read {
+    background: black;
+    border: 2px solid white;
+    border-radius: 23px;
+    margin-bottom: 60px;
+    padding: 70px 130px;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 156.02%;
+    color: white;
+    position: relative;
+}
+
+
+.read img {
+    width: 484px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.read h1 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-size: 26px;
+	line-height: 40px;
+}
+
+.read h1, .read p, .read ul {
+    padding: 0 0px;
+}
+
+.read ul li {
+    margin-bottom: 15px;
+}
+
+.back {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    display: flex;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.back img {
+    width: 35px;
+    margin-right: 10px;
+}
+
+.back:hover {
+opacity: 0.3;
+}
+# card 2 img {
+	height: 390px;
+	object-fit: cover;
+}
+.read 2 img {
+    width: 484px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.read 2 h1 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-size: 26px;
+	line-height: 40px;
+}
+
+.read 2 h1, .read 2 p, .read 2 ul {
+    padding: 0 0px;
+}
+
+.read 2 ul li {
+    margin-bottom: 15px;
+}
